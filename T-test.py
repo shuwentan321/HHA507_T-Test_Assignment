@@ -27,7 +27,7 @@ ttest_ind(Female['time_in_hospital'], Male['time_in_hospital'])
 ##T-score = 9.542637042242887
 
 """The p-value is less than 0.05, 
-and the high statistic value 
+and the high t-score/value
 both indicate that there is a significant difference 
 between male and female patients for number of days in hospitals."""
 
@@ -44,7 +44,7 @@ ttest_ind(AfricanAmerican['time_in_hospital'], Caucasian['time_in_hospital'])
 ##T-score = 5.0610017032095325
 
 """The p-value is less than 0.05, 
-and the high statistic value 
+and the high t-score
 both indicate that there is a significant difference 
 between Caucasian and African American patients for number of days in hospitals."""
 
@@ -61,6 +61,6 @@ ttest_ind(AfricanAmerican['num_lab_procedures'], Asian['num_lab_procedures'])
 ##T-score = 3.9788715315360292
 
 """The p-value is less than 0.05, 
-and the high statistic value 
+and the high t-score
 both indicate that there is a significant difference 
 between Asian and African American patients for number of lab procedures performed."""
